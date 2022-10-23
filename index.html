@@ -98,7 +98,7 @@
     const create = { name, type, age, date };
     store.push(create);
     localStorage.setItem("accUsers", JSON.stringify(store));
-    console.log(create);
+    console.log(store);
     document.getElementById("empty").style.display = "none";
     addToScreen();
   }
@@ -134,12 +134,12 @@
   }
 
   //   // Show function denotes the list of registered users on the Table after been brought back from LocalStorage
-  function show() {
-    let shows = localStorage.getItem("accUsers");
-    let showItem = JSON.parse(shows);
-    store = showItem;
-    addToScreen();
-  }
+  // function show() {
+  //   let shows = localStorage.getItem("accUsers");
+  //   let showItem = JSON.parse(shows);
+  //   store = showItem;
+  //   addToScreen();
+  // }
 
   // show() which represents the data from the local storage directly shown on the table
   show();
