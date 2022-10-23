@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(7, 7, 70);
+    color: lightseagreen;
+}
+
+.forms {
+    border: 2px solid lightseagreen;
+}
+
+#addtodo {
+    background-color: lightseagreen;
+    color: rgb(9, 9, 58);
+    padding: 0px;
+}
+
+.table {
+    border: 2px solid lightseagreen;
+    color: lightseagreen;
+    font-weight: bolder;
+}
+
+.diva {
+    height: 100px;
+    background-color: lightseagreen;
+    border-radius: 40px 40px 0px 0px;
+}
+
+#tolu {
+    color: rgb(16, 16, 68);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.formdesign {
+    border-radius: 0px 0px 40px 0px;
+}
+
+.selectdesign {
+    border-radius: 35px 35px 35px 0px;
+    background-color: lightseagreen;
+    color: rgb(26, 26, 88);
+    font-weight: bolder;
+}
+
+.selectdesign:focus {
+    background-color: lightseagreen;
+    color: rgb(26, 26, 88);
+}
+
+.button {
+    color: rgb(13, 13, 75);
+    background-color: lightseagreen;
+    width: 150px;
+    padding: 8px;
+    border-radius: 35px 35px 35px 0px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    color: lightseagreen;
+    background-color: rgb(28, 28, 92);
+}
+
+.removeB {
+    border-radius: 35px 35px 35px 0px;
+    width: 100px;
+}
