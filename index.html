@@ -54,7 +54,7 @@
   <h3 id="empty" class="text-center"></h3>
   <br /><br />
 
-  <!-- The table which shows all information been stored to the locat storage -->
+  <!-- The table which shows all information been stored to the local storage -->
   <h1 class="text-center">Bank Customer List</h1>
   <table class="table w-50 text-center m-auto">
     <thead class="thead-dark">
@@ -88,7 +88,7 @@
     } else if (age == "") {
       document.getElementById("empty").style.display = "inherit";
       return (document.getElementById("empty").innerText = "Input account age");
-    } else if (isNaN(age) || age < 1 || age > 70) {
+    } else if (isNaN(age) || age < 1 || age > 80) {
       return alert("Age not valid");
     } else if (date == "") {
       document.getElementById("empty").style.display = "inherit";
